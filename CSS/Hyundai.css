@@ -75,6 +75,13 @@ align-items: c;
 h4 {
   display: inline-block;
 }
+
+video {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
 section {
 display: flex;
 flex-direction: row;
@@ -86,7 +93,7 @@ align-items: center;
 align-items: center;
 display: flex;
 height: 100vh;
-gap: 3px;
+gap: 99px;
 justify-content: space-evenly;
 }
 
@@ -120,7 +127,6 @@ filter: brightness(70%);
 bottom: 0;
 }
 .cta img {
-bottom: 0;
 filter: brightness(100%);
 left: 0;
 position: absolute;
@@ -158,7 +164,9 @@ footer{
 display: flex;
 justify-content: center;
 align-items: center;
+gap: 20px;
 }
+
 footer .row{
 width:100%;
 margin:1% 0%;
