@@ -5,7 +5,7 @@
     padding: 0px;
     color: white;
     font-family: 'Raleway', sans-serif;
-
+    font-weight: bolder;
 }
 
 body {
@@ -76,6 +76,13 @@ align-items: c;
 h4 {
   display: inline-block;
 }
+
+video {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
 section {
 display: flex;
 flex-direction: row;
@@ -165,18 +172,19 @@ footer .row{
 width:100%;
 margin:1% 0%;
 padding:0.6% 0%;
-color:gray;
+color:rgb(168, 166, 166);
 font-size:0.8em;
 }
   
 footer .row a{
 text-decoration:none;
-color:rgb(169, 157, 157);
+color:rgb(197, 197, 197);
 transition:0.5s;
+font-size: medium;
 }
   
 footer .row a:hover{
-color:#fff;
+color:#ffffff;
 }
   
 footer .row ul{

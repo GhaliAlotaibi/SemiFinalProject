@@ -180,6 +180,7 @@ footer .row a{
 text-decoration:none;
 color:rgb(169, 157, 157);
 transition:0.5s;
+font-size: medium;
 }
   
 footer .row a:hover{
