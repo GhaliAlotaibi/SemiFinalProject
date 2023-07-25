@@ -10,12 +10,13 @@
 
 body {
 background-color: #212121;
+font-weight: bolder;
 }
 
 header{
 width: 100%;
 background-color: rgba(5,1,0,255);
-height: 14%;
+height: 14vh;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
@@ -86,7 +87,7 @@ align-items: center;
 align-items: center;
 display: flex;
 height: 100vh;
-gap: 3px;
+gap: 99px;
 justify-content: space-evenly;
 }
 
@@ -169,7 +170,7 @@ font-size:0.8em;
   
 footer .row a{
 text-decoration:none;
-color:gray;
+color:rgb(169, 157, 157);
 transition:0.5s;
 }
   
@@ -193,7 +194,7 @@ margin:0% 1%;
   
 @media (max-width:720px){
 footer{
-text-align:left;
+text-align:center;
 padding:5%;
 }
 footer .row ul li{
