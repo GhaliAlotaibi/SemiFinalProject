@@ -5,9 +5,11 @@ html {
   body {
     margin:0;
     padding:0;
-    background-image: url('/IMG/GA\ Monogram.jpeg');
+    background-image: url('/IMG/Audi\ Style\ Super\ car\ in\ a\ garage\ Desktop\ Wallaper\ download.jpeg');
     background-attachment: fixed;
-    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
   }
   
   .login-box {
@@ -67,7 +69,7 @@ html {
   .login-box form a {
     position: relative;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 10px;
     color: #ffffff;
     font-size: 16px;
     text-decoration: none;
@@ -75,17 +77,17 @@ html {
     overflow: hidden;
     transition: .5s;
     margin-top: 40px;
-    letter-spacing: 4px
+    letter-spacing: px;
   }
   
   .login-box a:hover {
-    background: #00000000;
-    color: #ffffff;
+    background: #ffffff;
+    color: #000000;
     border-radius: 5px;
     box-shadow: 0 0 5px #141312,
                 0 0 25px #000000,
                 0 0 50px #0c0c0c,
-                0 0 100px #0d0d0c;
+                0 0 100px #ffffff;
   }
   
   .login-box a span {
