@@ -5,12 +5,12 @@
     padding: 0px;
     color: white;
     font-family: 'Raleway', sans-serif;
-
+    font-weight: bolder;
 }
 
 body {
   background-color: #141414;
-font-weight: bolder;
+  font-weight: bolder;
 }
 
 header{
@@ -76,6 +76,13 @@ align-items: c;
 h4 {
   display: inline-block;
 }
+
+video {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
 section {
 display: flex;
 flex-direction: row;
