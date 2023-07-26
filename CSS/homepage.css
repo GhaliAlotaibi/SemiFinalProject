@@ -203,6 +203,11 @@ header{
       padding:0.6% 0%;
       color:gray;
       font-size:0.8em;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 5%;
       }
         
       footer .row a{
@@ -230,10 +235,10 @@ header{
       margin:0% 1%;
       }
         
-      @media (max-width:720px){
+
       footer{
       text-align:center;
-      padding:5%;
+
       }
       footer .row ul li{
       display:block;

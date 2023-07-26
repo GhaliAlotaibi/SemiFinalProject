@@ -172,19 +172,24 @@ footer .row{
 width:100%;
 margin:1% 0%;
 padding:0.6% 0%;
-color:rgb(168, 166, 166);
+color:gray;
 font-size:0.8em;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 5%;
 }
   
 footer .row a{
 text-decoration:none;
-color:rgb(197, 197, 197);
+color:rgb(169, 157, 157);
 transition:0.5s;
 font-size: medium;
 }
   
 footer .row a:hover{
-color:#ffffff;
+color:#fff;
 }
   
 footer .row ul{
@@ -201,10 +206,10 @@ font-size:2em;
 margin:0% 1%;
 }
   
-@media (max-width:720px){
+
 footer{
 text-align:center;
-padding:5%;
+
 }
 footer .row ul li{
 display:block;
@@ -212,5 +217,5 @@ margin:10px 0px;
 text-align:left;
 }
 footer .row a i{
-margin:0% 3%;
+  margin:0% 3%;
 }
