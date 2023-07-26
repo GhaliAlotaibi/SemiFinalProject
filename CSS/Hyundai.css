@@ -112,12 +112,13 @@ width: 10%;
 
 
 .cta {
-background: #333;
+background: #141414;
 box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
 height: 450px;
 overflow: hidden;
 position: relative;
-width: 300px;
+width: 400px;
+border-radius: 20px;
 }
 .cta:hover img {
 top: -10%;
@@ -152,7 +153,8 @@ position: relative;
 }
 
 .cta .text p {
-color: #fff;
+color: #ffffff;
+font-size: larger;
 font-weight: 300;
 }
 
